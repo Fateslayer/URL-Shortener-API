@@ -1,0 +1,21 @@
+{
+	"name": "url-shortener-api",
+	"version": "1.0.0",
+	"description": "An API for the URL Shortener project",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+	},
+	"author": "Fateslayer",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"cors": "^2.8.4",
+		"express": "^4.16.3",
+		"hbs": "^4.0.1",
+		"mongoose": "^5.2.4",
+		"randomstring": "^1.1.5",
+		"validator": "^10.4.0"
+	}
+}
